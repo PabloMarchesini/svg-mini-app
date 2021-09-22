@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    height: 100%;
+    background-color: #efefef;
+    overflow: hidden;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.button-handler {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.btn-group .btn, .btn {
+  background-color: #fff;
+  color: black;
+}
+
+.btn-group .btn:hover, .btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.btn-group .btn:focus, .btn:focus {
+  box-shadow: none !important;
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.btn-group .btn:active, .btn:active {
+  box-shadow: none !important;
+  background-color: #a0d9fc !important;
+  color: black !important;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #fff;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 12px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #a0d9fc;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #a0d9fc;
+  cursor: pointer;
+}
+
+.diagonal-input input {
+  width: 60%;
+  display: inline-block;
+  margin-right: 10px;
+  box-shadow: none !important;
+}
+
+.diagonal-input button {
+  display: inline-block;
+}
+
+.image-container {
+  padding: 10px;
+  border: 3px solid #555555;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.upload-button {
+  height: 100px;
+}
